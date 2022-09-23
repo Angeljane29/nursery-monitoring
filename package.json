@@ -1,0 +1,17 @@
+{
+  "name": "capstone-system",
+  "version": "1.0.0",
+  "description": "A capstone project for 4th Year BSIT Students of West Visayas State University Calinog Campu",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "devStart": "nodemon app.js"
+  },
+  "author": "Janen Camare, Angela Gener",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "path": "^0.12.7"
+  }
+}

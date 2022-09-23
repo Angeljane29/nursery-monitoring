@@ -1,0 +1,21 @@
+#recent {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #recent td, #recent th {
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+  }
+  
+  #recent tr:nth-child(even){background-color: #24a0d1;}
+  
+  #recent tr:hover {background-color: #ddd;}
+  
+  #recent th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04be96;
+    color: white;
