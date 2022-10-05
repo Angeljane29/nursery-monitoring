@@ -15,29 +15,44 @@
   </head>
   <body>
     <div class="header">
-      <h1 class="title">Plant Nursery Monitoring System</h1>
-    </div>
-    <a href="./recent.html">
-      <img class="img" src="./images/recent.jpeg" />
-    </a>
-
-    <div class="main-box">
-      <div class="box">
-        <h3 class="label">Soil Moisture</h3>
-        <h2 class="soilmoisture">50%</h2>
+      <a href="./recent.html"
+        ><button class="btn btn-outline-dark">History</button></a
+      >
+      <div
+        class="hwrapper container-fluid d-flex justify-content-center align-items-center"
+      >
+        <h1 class="title">Plant Nursery Monitoring System</h1>
       </div>
-      <a href="./weather.html">
-        <div class="box" id="status">
-          <h3 class="label1">Weather</h3>
-          <img class="image" id="sky_icon" />
-          <h2 class="weather" id="temp"></h2>
-          <h4 class="name" id="sky"></h4>
-        </div>
-      </a>
     </div>
-    <div class="foot-box">
-      <h5 class="watering">Watering Status:On - Going</h5>
+    <div class="bodycontent">
+        <div class="container-fluid mt-5">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-6 col-sm-12 mb-2">
+                <div class="box">
+                  <h3 class="label">Soil Moisture</h3>
+                  <h2 class="soilmoisture">50%</h2>
+                </div>
+              </div>
+      
+              <div class="col-md-6 col-sm-12 m-b-2">
+                <a href="./weather.html" class="">
+                  <div class="box" id="status ">
+                    <h3 class="label1">Weather</h3>
+                    <img class="image" id="sky_icon" />
+                    <h2 class="weather" id="temp"></h2>
+                    <h4 class="name" id="sky"></h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid ftwrapper">
+            <div class="foot-box">
+              <h5 class="text watering">Watering Status:On - Going</h5>
+            </div>
+          </div>
     </div>
+
     <script
       src="https://code.jquery.com/jquery-3.6.1.js"
       integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="

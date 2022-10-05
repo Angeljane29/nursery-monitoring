@@ -13,14 +13,12 @@ body{
 }
 .header{
     background-color: rgba(255, 255, 255, 0.842);
-    width: max-content;
-    margin: auto;
+    margin: 0;
     padding: 10px 50px;
     display:flex;
-    flex-direction: column;
-    justify-self: center;
-    border-radius: 5px;
-    margin-top: 10px;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
     margin-bottom: 20px;
 }
 .title{
@@ -45,32 +43,27 @@ body{
 .label{
     font-size: 20px;
     margin-top: 10px;
-    margin-left: 140px;
 
 }
 .soilmoisture{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 90px;
-    margin-left: 130px;
-    margin-top: 100px;
 }
 .box{
     background-color: white;
-    height: 350px;
-    width: 400px;
-    margin: 1%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;height: 100%;
+    border-radius: 5px;
 }
 .label1{
     font-size: 20px;
-    margin-top: 10px;
-    margin-left: 160px;
-
 }
 .image{
     height: 130px;
     width: 150px;
-    margin-left: 130px;
-    margin-top: -4px;
     margin-bottom: 0px;
     
 }
@@ -92,15 +85,18 @@ body{
 .foot-box{
     background-color: white;
     height: 70px;
-    width: 60vw;
-    margin-left: 200px;
-    margin-bottom: 30px;
     border-radius: 10px;
 
 }
 .watering{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 10px;
+}
+.bodycontent{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
 }
