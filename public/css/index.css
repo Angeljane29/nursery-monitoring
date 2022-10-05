@@ -37,8 +37,9 @@ body{
     width: 100vw;
     display: flex;
     flex-direction: row;
-    margin: auto;
+    margin-left: 5px;
     align-items: flex-start;
+    justify-content: center;
 
 }
 .label{
@@ -93,7 +94,7 @@ body{
     height: 70px;
     width: 60vw;
     margin-left: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-radius: 10px;
 
 }
