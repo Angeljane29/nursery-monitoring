@@ -9,8 +9,7 @@ document.body.onload = async function(){
 
     const table = document.getElementById("weather")
     forecast.hour.forEach(data => {
-        let tr = document.createElement("tr");
-
+        let tr = document.createElement("tr")
         let time = document.createElement("td")
         let temp = document.createElement("td")
         let weather = document.createElement("td")
