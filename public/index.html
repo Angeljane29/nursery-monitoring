@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Plant Nursery Monitoring System</title>
+    <title>Plant Nursery Watering System</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,26 +15,36 @@
   </head>
   <body>
     <div class="header">
-      <a href="./recent.html"
-        ><button class="btn btn-outline-dark btn btn-lg">History</button></a
+      <div
+        ><button class="btn btn-outline-dark btn btn-lg" onclick="fillTank()">FILL TANK</button></div
       >
       <div
         class="hwrapper container-fluid d-flex justify-content-center align-items-center"
       >
-        <h1 class="title">Plant Nursery Monitoring System</h1>
+      
+        <h1 class="title">Plant Nursery Watering System</h1>
+      </div>
+      <div>
+        <button class="btn btn-sm btn-primary" onclick="forceWater()">Force Watering</button>
       </div>
     </div>
     <div class="bodycontent">
         <div class="container-fluid mt-5">
             <div class="row d-flex justify-content-center">
-              <div class="col-md-6 col-sm-12 mb-2">
+              <div class="col-md-2 col-sm-12 mb-2">
+                <div class="box">
+                  <h3 class="label2">Tank Level</h3>
+                  <h2 class="tanklevel" id="tank-level">50%</h2>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12 mb-2">
                 <div class="box">
                   <h3 class="label">Soil Moisture</h3>
                   <h2 class="soilmoisture" id="moist">50%</h2>
                 </div>
               </div>
       
-              <div class="col-md-6 col-sm-12 m-b-2">
+              <div class="col-md-4 col-sm-12 m-b-2">
                 <a href="./weather.html" class="">
                   <div class="box" id="status ">
                     <h3 class="label1">Weather</h3>

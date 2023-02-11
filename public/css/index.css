@@ -77,7 +77,7 @@ body{
 }
 .name{
     font-family:'Courier New', Courier, monospace;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     margin-top: 5px;
    
@@ -87,4 +87,12 @@ body{
     flex-direction: row;
     flex-direction: column;
     justify-content: space-between;
+}
+.tanklevel{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 50px;
+}
+.label2{
+    font-size: 20px;
+    background-color: rgb(133, 208, 238);
 }
